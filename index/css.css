@@ -1,0 +1,773 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* 导航条 */
+
+body {
+    width: 100%;
+}
+
+.uiPage {
+    width: 1349px;
+    margin: 0 auto;
+}
+
+.title {
+    width: 100%;
+    /* min-width: 1349px; */
+    height: 54px;
+    background: #2b3043;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: 232px;
+    top: 0px;
+}
+
+.title>ul {
+    position: absolute;
+    left: 372px;
+    top: 14px;
+    height: 100%;
+}
+
+.title>ul>li {
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+    height: 100%;
+}
+
+ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+.op {
+    width: 84px;
+    height: 20px;
+    background: url(ui/images/login-tb.png) no-repeat 69px -120px;
+}
+
+.Tright {
+    width: 326px;
+    position: absolute;
+    right: 22px;
+    top: 11px;
+}
+
+.input1 {
+    width: 186px;
+    height: 31px;
+    border: none;
+    border: 1px #b6b6b6 solid;
+    background: url(ui/images/top-search.png) no-repeat 163px 6px;
+    margin-right: 18px;
+    padding-left: 9px;
+}
+
+.Tright>.phone {
+    display: inline-block;
+    width: 12px;
+    height: 19px;
+    background: url(ui/images/header-app.png) no-repeat 0 3px;
+    margin-right: 11px;
+    position: relative;
+    top: 3px;
+}
+
+.Tright>a {
+    color: #b6b6b6;
+}
+
+
+/* 首图 */
+
+.firstI {
+    width: 100%;
+    height: 380px;
+    /* min-width: 1349px; */
+    position: relative;
+}
+
+.firstIi {
+    width: 100%;
+    height: 100%;
+    background: url(./ui/images/first-img.png) no-repeat center center;
+    background-size: cover;
+}
+
+
+/* .firstIi>img {
+    width: 100%;
+} */
+
+.firstF {
+    width: 631px;
+    height: 214px;
+    position: absolute;
+    bottom: 95px;
+    left: 601px
+}
+
+.firstF h1,
+.firstP {
+    color: #009b66;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.firstP {
+    margin-bottom: 22px;
+}
+
+.firstU>li {
+    list-style: none;
+    color: white;
+    background: #009b66;
+    padding: 11px 15px;
+    float: left;
+    margin-right: 10px;
+}
+
+
+/* 课程模块 */
+
+.module {
+    width: 1142px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.module-first {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    margin-bottom: 37px;
+    margin-top: 45px;
+}
+
+.line,
+.line1 {
+    display: inline-block;
+    width: 467px;
+    height: 13px;
+    border-top: 1px solid #666666;
+}
+
+.text,
+.text1 {
+    font-size: 35px;
+    margin: 0 24px;
+}
+
+.module-second>div {
+    float: left;
+}
+
+.img1,
+.img2 {
+    margin-right: 17px;
+}
+
+.aside-img1,
+.aside-img2,
+.aside-img3 {
+    float: left;
+    margin-top: 18px;
+}
+
+.ol {
+    margin-top: 35px;
+    color: #656565;
+}
+
+.ol-1 li {
+    list-style: none;
+    margin-left: 44px;
+    margin-bottom: 9px;
+}
+
+.ol-2 li {
+    list-style: none;
+    margin-left: 44px;
+    margin-bottom: 9px;
+}
+
+.ol-1 p {
+    list-style: none;
+    border: 1px solid #b5b5b5;
+    padding: 12px 14px;
+    margin-left: 34px;
+    margin-bottom: 15px;
+}
+
+.ol-2 p {
+    list-style: none;
+    border: 1px solid #b5b5b5;
+    padding: 12px 14px;
+    margin-left: 34px;
+    margin-bottom: 10px;
+}
+
+.ol-3 p {
+    list-style: none;
+    border: 1px solid #b5b5b5;
+    padding: 12px 14px;
+    margin-left: 34px;
+    margin-bottom: 18px;
+}
+
+.ol-1 .p1 {
+    border: 1px solid #b5b5b5;
+    padding: 12px 14px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+}
+
+.p2 {
+    width: 181px;
+}
+
+.p3 {
+    width: 158px;
+}
+
+.p4 {
+    width: 207px;
+}
+
+.p5 {
+    width: 176px;
+    margin-top: 10px;
+}
+
+.p6 {
+    width: 169px;
+}
+
+.p7 {
+    width: 166px;
+}
+
+.p8 {
+    width: 191px;
+}
+
+
+/* 完成课程 */
+
+.reap-all {
+    display: inline-block;
+    width: 100%;
+    /* min-width: 1143px; */
+    background: #fafafa;
+    margin-top: 56px;
+}
+
+.reap {
+    width: 1142px;
+    margin: 0 auto;
+}
+
+.reap .line1 {
+    width: 379px;
+    border-top: 1px solid #d7d7d7;
+}
+
+.reap .text1 {
+    margin: 0 17px;
+}
+
+.reap-p1 {
+    color: #282828;
+    width: 638px;
+    font-size: 13px;
+    margin: 0 auto;
+    margin-bottom: 4px;
+}
+
+.reap-first {
+    width: 100%;
+    margin-top: 65px;
+    margin-bottom: 20px;
+}
+
+.reap-p2 {
+    color: #282828;
+    width: 455px;
+    font-size: 13px;
+    margin: 0 auto;
+}
+
+.rap {
+    width: 990px;
+    margin: 39px auto;
+}
+
+.rap li {
+    float: left;
+    list-style: none;
+    width: 130px;
+    height: 130px;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 130px;
+    margin-right: 40px;
+}
+
+.reap-p3 {
+    width: 111px;
+    font-size: 27px;
+    margin: 0 auto;
+    margin-top: 33px;
+    margin-bottom: 14px;
+}
+
+.reap-p4 {
+    width: 568px;
+    font-size: 13px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+
+/* 课程服务 */
+
+.serve-all {
+    width: 1142px;
+    margin: 58px auto;
+}
+
+.serve-font {
+    width: 641px;
+    font-size: 13px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.serve-img {
+    position: relative;
+}
+
+.font1,
+.font2,
+.font3 {
+    width: 212px;
+    position: absolute;
+    font-size: 14px;
+    color: white;
+}
+
+.serve-t {
+    font-size: 20px;
+}
+
+.p-serve1,
+.p-serve2,
+.p-serve3 {
+    float: right;
+    font-size: 20px;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    color: white;
+}
+
+.font1 {
+    bottom: 319px;
+    left: 396px;
+}
+
+.font2 {
+    bottom: 223px;
+    left: 150px;
+}
+
+.font3 {
+    bottom: 73px;
+    left: 397px;
+}
+
+.serve-p {
+    margin-top: 8px;
+}
+
+.p-serve1 {
+    position: relative;
+    bottom: 410px;
+    right: 270px;
+}
+
+.p-serve2 {
+    position: relative;
+    bottom: 287px;
+    right: 25px;
+}
+
+.p-serve3 {
+    position: relative;
+    bottom: 164px;
+    right: 26px;
+}
+
+
+/* 第二张图 */
+
+.secondI {
+    width: 100%;
+    height: 434px;
+    background: url(./ui/images/fifth-bg.png) no-repeat center center;
+    background-size: cover;
+    /* min-width: 1143px; */
+    margin-top: 15px;
+}
+
+.sec-content {
+    width: 1142px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.sec-content-img {
+    position: absolute;
+    left: 79px;
+    top: 76px;
+}
+
+.sec-content-imgW {
+    position: absolute;
+    left: 188px;
+    top: 177px;
+}
+
+.sec-im {
+    font-size: 30px;
+    color: white;
+}
+
+.sec-im-p {
+    font-size: 14px;
+    width: 677px;
+    color: #caa29e;
+    line-height: 24px;
+    margin-top: 6px;
+}
+
+
+/* 我们的师资 */
+
+.myTeacher {
+    width: 100%;
+    /* min-width: 1349px; */
+}
+
+.myTeacher-div1 {
+    width: 1142px;
+    margin: 0 auto;
+}
+
+.text-te {
+    margin: 0 11px;
+}
+
+.module-first-te {
+    margin-top: 60px;
+}
+
+.serve-font-te1 {
+    width: 641px;
+    font-size: 13px;
+    margin: 0 auto;
+    margin-bottom: 6px;
+}
+
+.serve-font-te {
+    font-size: 13px;
+    width: 208px;
+    margin: 0 auto;
+}
+
+.myTeacher-ul {
+    list-style: none;
+    padding: 0 22px;
+    margin-top: 52px;
+    overflow: hidden;
+}
+
+.myTeacher-ul-li {
+    width: 20%;
+    text-align: center;
+    border-right: 1px solid #eaeaea;
+    padding-right: 38px;
+    padding-top: 13px;
+    float: left;
+    padding-left: 38px;
+    height: 306px;
+}
+
+.myTeacher-ul-li1 {
+    padding-left: 0px;
+}
+
+.myTeacher-ul-li5 {
+    padding-right: 25px;
+    border-right: none;
+}
+
+.myTeacher-ul-li-div {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.myTeacher-ul-li>p {
+    font-size: 12px;
+}
+
+.myTeacher-ul-li-p2 {
+    color: #7a7a7a;
+    text-align: left;
+    line-height: 18px;
+    margin-top: 8px;
+}
+
+
+/* 我们的教材 */
+
+.myBook {
+    width: 100%;
+    /* min-width: 1349px; */
+    background: #fafafa;
+    margin-top: 42px;
+    padding-top: 60px;
+}
+
+.myBook-div1 {
+    width: 1142px;
+    margin: 0 auto;
+}
+
+.module-first-B {
+    margin-top: 0;
+}
+
+.serve-font-te2 {
+    width: 645px;
+    font-size: 13px;
+    margin: 0 auto;
+    margin-bottom: 6px;
+}
+
+
+/* 我们的平台 */
+
+.myspace {
+    width: 100%;
+    /* min-width: 1349px; */
+    background: url(./ui/images/pingtai.png) no-repeat center center;
+    background-size: cover;
+    margin-top: 68px;
+    padding-top: 53px;
+}
+
+.myspace-div {
+    width: 1142px;
+    margin: 0 auto;
+}
+
+.line-sp {
+    color: #829da5;
+}
+
+.text-sp {
+    color: #faf3f6;
+    text-align: center;
+}
+
+.myspace-ul {
+    list-style: none;
+    overflow: hidden;
+    width: 993px;
+    margin: 0 auto;
+    margin-top: 44px;
+}
+
+.myspace-ul>li:last-child {
+    margin-right: 0px;
+}
+
+.myspace-ul-li {
+    float: left;
+    width: 218px;
+    height: 298px;
+    margin-right: 37px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 22px;
+    background: #2ab0a4;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.myspace-ul-li>p {
+    color: #faf3f6;
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.myspace-ul-li>div {
+    color: #faf3f6;
+    font-size: 14px;
+    text-align: left;
+}
+
+
+/* 线下实训 */
+
+.line-write {
+    width: 450px;
+}
+
+.font-write {
+    width: 676px;
+}
+
+.serve-write {
+    font-size: 13px;
+    width: 195px;
+    margin: 0 auto;
+    margin-bottom: 37px;
+}
+
+
+/* footer */
+
+.footer {
+    width: 100%;
+    /* min-width: 1349px; */
+    height: 295px;
+    background: url(./ui/images/100wan.png) no-repeat center center;
+    background-size: cover;
+    margin-top: 100px;
+    position: relative;
+}
+
+.footer-div {
+    width: 718px;
+    height: 96px;
+    font-size: 56px;
+    color: white;
+    background: #2ab0a4;
+    line-height: 96px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.dis1 {
+    width: 100%;
+    /* min-width: 1349px; */
+    background: rgba(96, 96, 98, .5);
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+    z-index: 1000;
+    display: none;
+}
+
+.dis1-ul {
+    width: 100%;
+    /* background: rgba(96, 96, 98, .5); */
+    margin: 0 auto;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 155px;
+}
+
+.dis1-ul>li {
+    float: left;
+    color: white;
+    margin-left: 33px;
+}
+
+.dis2-img {
+    position: absolute;
+    right: 164px;
+    z-index: 1000;
+    display: none;
+}
+
+.dis3 {
+    overflow: hidden;
+    position: absolute;
+    top: 271px;
+}
+
+.dis3>div:first-child {
+    margin-left: 0px;
+}
+
+.dis3-div1>div:first-child {
+    color: white;
+    font-size: 17px;
+    margin-top: 25px;
+}
+
+.dis3-div1>div:nth-child(2) {
+    color: white;
+    font-size: 13px;
+    margin-top: 5px;
+    line-height: 25px;
+}
+
+.dis3-div1>div:nth-child(3) {
+    color: white;
+    font-size: 13px;
+    width: 131px;
+    height: 40px;
+    background: #019a66;
+    border-radius: 20px;
+    line-height: 40px;
+    text-align: center;
+    -webkit-transform: translateX(63%);
+    transform: translateX(63%);
+    margin-top: 16px;
+}
+
+.img-dis3 {
+    height: 207px;
+    position: relative;
+    overflow: hidden;
+}
+
+.dis3-div1 {
+    width: 368px;
+    height: 207px;
+    background: rgba(0, 0, 0, 0);
+    padding: 0 35px;
+    position: absolute;
+    top: 148px;
+    /* margin-left:17px; */
+    /* float:left; */
+}
+
+.myTeacher-ul-li>img:hover {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1.1, 1.1);
+}
